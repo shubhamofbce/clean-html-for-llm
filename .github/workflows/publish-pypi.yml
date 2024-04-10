@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Copy README.md
+        run: cp README.md $GITHUB_WORKSPACE/README.md
 
       - name: Set up Python
         uses: actions/setup-python@v2
