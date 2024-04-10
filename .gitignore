@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.env
+
+# Compiled files
+*.o
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories
+dist/
+build/
