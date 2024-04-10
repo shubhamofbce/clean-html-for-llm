@@ -1,6 +1,7 @@
 # clean_html_for_llm
 
 This library provides a method to clean HTML content by removing specified tags and attributes while keeping specified attributes. It is particularly useful for preprocessing HTML data to remove noisy tags, making it easier for language models (LLMs) to understand the HTML and generate accurate responses.
+This is super helpful if you are querying LLMs with your HTML data.
 ![PyPI Version](https://img.shields.io/pypi/v/clean-html-for-llm)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
